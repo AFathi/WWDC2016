@@ -57,10 +57,10 @@
 		76CD0FAB1CD586F600FE4AE0 /* name.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CD0FA71CD586F600FE4AE0 /* name.png */; };
 		76CDEC181CCE9F2A00BF8868 /* singularityParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 76CDEC161CCE9F2A00BF8868 /* singularityParticles.sks */; };
 		76CDEC1B1CCEA56D00BF8868 /* starsParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 76CDEC1A1CCEA56D00BF8868 /* starsParticles.sks */; };
-		76CDEC581CCFDDEE00BF8868 /* galaxyParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 76CDEC561CCFDDEE00BF8868 /* galaxyParticles.sks */; };
-		76CDEC591CCFDDEE00BF8868 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CDEC571CCFDDEE00BF8868 /* spark.png */; };
 		76F6CBBB1CCAEC410007C945 /* SpaceScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F6CBBA1CCAEC410007C945 /* SpaceScene.swift */; };
 		76F6CBBF1CCAF5E90007C945 /* singularity.png in Resources */ = {isa = PBXBuildFile; fileRef = 76F6CBBE1CCAF5E90007C945 /* singularity.png */; };
+		FBF31A671FB824370098177A /* galaxyParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBF31A651FB824370098177A /* galaxyParticles.sks */; };
+		FBF31A681FB824370098177A /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF31A661FB824370098177A /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,10 +116,10 @@
 		76CD0FA71CD586F600FE4AE0 /* name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = name.png; sourceTree = "<group>"; };
 		76CDEC161CCE9F2A00BF8868 /* singularityParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = singularityParticles.sks; sourceTree = "<group>"; };
 		76CDEC1A1CCEA56D00BF8868 /* starsParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starsParticles.sks; sourceTree = "<group>"; };
-		76CDEC561CCFDDEE00BF8868 /* galaxyParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = galaxyParticles.sks; path = ../galaxyParticles.sks; sourceTree = "<group>"; };
-		76CDEC571CCFDDEE00BF8868 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = ../spark.png; sourceTree = "<group>"; };
 		76F6CBBA1CCAEC410007C945 /* SpaceScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceScene.swift; sourceTree = "<group>"; };
 		76F6CBBE1CCAF5E90007C945 /* singularity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singularity.png; sourceTree = "<group>"; };
+		FBF31A651FB824370098177A /* galaxyParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = galaxyParticles.sks; sourceTree = "<group>"; };
+		FBF31A661FB824370098177A /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,10 +241,10 @@
 		7691DC321CCFEDF600B8F36B /* Particles */ = {
 			isa = PBXGroup;
 			children = (
+				FBF31A651FB824370098177A /* galaxyParticles.sks */,
+				FBF31A661FB824370098177A /* spark.png */,
 				7604ECE71CD41AB7007EF2E6 /* sunParticles.sks */,
-				76CDEC561CCFDDEE00BF8868 /* galaxyParticles.sks */,
 				7691DC371CD016D900B8F36B /* hotgalaxyparticle.sks */,
-				76CDEC571CCFDDEE00BF8868 /* spark.png */,
 				76CDEC1A1CCEA56D00BF8868 /* starsParticles.sks */,
 				76CDEC161CCE9F2A00BF8868 /* singularityParticles.sks */,
 				7691DC331CCFFE0E00B8F36B /* milkyparticle.sks */,
@@ -299,7 +299,6 @@
 				TargetAttributes = {
 					762242761CC8E7D000C50108 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = QWJ822752T;
 					};
 				};
 			};
@@ -339,6 +338,7 @@
 				76CDEC1B1CCEA56D00BF8868 /* starsParticles.sks in Resources */,
 				7660FADF1CD64606003BC09D /* myage.png in Resources */,
 				7691DC311CCFEDDF00B8F36B /* g2.png in Resources */,
+				FBF31A681FB824370098177A /* spark.png in Resources */,
 				7604ECD31CD2CF51007EF2E6 /* 8.png in Resources */,
 				76CD0F941CD5233300FE4AE0 /* galaxiesinfo.png in Resources */,
 				7604ECE51CD4193B007EF2E6 /* 5.png in Resources */,
@@ -350,11 +350,9 @@
 				76CD0F921CD511EF00FE4AE0 /* infobg.png in Resources */,
 				7691DC381CD016D900B8F36B /* hotgalaxyparticle.sks in Resources */,
 				76CD0FA01CD5712800FE4AE0 /* restart.png in Resources */,
-				76CDEC581CCFDDEE00BF8868 /* galaxyParticles.sks in Resources */,
 				7604ECD71CD381EF007EF2E6 /* orbits.png in Resources */,
 				76529EBF1CC98064002C185E /* stars.png in Resources */,
 				76529EBB1CC97C7E002C185E /* circle.png in Resources */,
-				76CDEC591CCFDDEE00BF8868 /* spark.png in Resources */,
 				7604ECE81CD41AB7007EF2E6 /* sunParticles.sks in Resources */,
 				764046501CCD3331005634E6 /* solarsysteminfo.png in Resources */,
 				7660FAE71CD67E5C003BC09D /* profile.png in Resources */,
@@ -362,6 +360,7 @@
 				76CD0F9A1CD5556F00FE4AE0 /* solarinfo.png in Resources */,
 				7660FAE01CD64606003BC09D /* mybio.png in Resources */,
 				762242891CC8E7D000C50108 /* LaunchScreen.storyboard in Resources */,
+				FBF31A671FB824370098177A /* galaxyParticles.sks in Resources */,
 				760D21B01CCCDF1E002E8F37 /* starsbg.png in Resources */,
 				76F6CBBF1CCAF5E90007C945 /* singularity.png in Resources */,
 				76CD0FA81CD586F600FE4AE0 /* aboutbg.png in Resources */,
@@ -504,6 +503,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Ahmed Bekhit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedbekhit.Ahmed-Bekhit";
@@ -519,6 +519,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Ahmed Bekhit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedbekhit.Ahmed-Bekhit";
