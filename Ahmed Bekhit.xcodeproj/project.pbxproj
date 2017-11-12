@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7604ECC11CD13107007EF2E6 /* milkyy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604ECC01CD13107007EF2E6 /* milkyy.png */; };
+		7604ECC31CD16730007EF2E6 /* SolarSystemScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7604ECC21CD16730007EF2E6 /* SolarSystemScene.swift */; };
+		7604ECD21CD2CF51007EF2E6 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604ECCA1CD2CF51007EF2E6 /* 7.png */; };
+		7604ECD31CD2CF51007EF2E6 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604ECCB1CD2CF51007EF2E6 /* 8.png */; };
+		7604ECD71CD381EF007EF2E6 /* orbits.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604ECD61CD381EF007EF2E6 /* orbits.png */; };
+		7604ECD91CD39C24007EF2E6 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604ECD81CD39C24007EF2E6 /* sun.png */; };
+		7604ECE11CD4193B007EF2E6 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604ECDB1CD4193B007EF2E6 /* 1.png */; };
+		7604ECE21CD4193B007EF2E6 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604ECDC1CD4193B007EF2E6 /* 2.png */; };
+		7604ECE31CD4193B007EF2E6 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604ECDD1CD4193B007EF2E6 /* 3.png */; };
+		7604ECE41CD4193B007EF2E6 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604ECDE1CD4193B007EF2E6 /* 4.png */; };
+		7604ECE51CD4193B007EF2E6 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604ECDF1CD4193B007EF2E6 /* 5.png */; };
+		7604ECE61CD4193B007EF2E6 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604ECE01CD4193B007EF2E6 /* 6.png */; };
+		7604ECE81CD41AB7007EF2E6 /* sunParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7604ECE71CD41AB7007EF2E6 /* sunParticles.sks */; };
+		760D21B01CCCDF1E002E8F37 /* starsbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 760D21AF1CCCDF1D002E8F37 /* starsbg.png */; };
+		760D21B21CCCE0E2002E8F37 /* stars3.png in Resources */ = {isa = PBXBuildFile; fileRef = 760D21B11CCCE0E2002E8F37 /* stars3.png */; };
+		7622427B1CC8E7D000C50108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7622427A1CC8E7D000C50108 /* AppDelegate.swift */; };
+		7622427D1CC8E7D000C50108 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7622427C1CC8E7D000C50108 /* GameScene.sks */; };
+		7622427F1CC8E7D000C50108 /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7622427E1CC8E7D000C50108 /* HomeScene.swift */; };
+		762242811CC8E7D000C50108 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762242801CC8E7D000C50108 /* HomeViewController.swift */; };
+		762242841CC8E7D000C50108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762242821CC8E7D000C50108 /* Main.storyboard */; };
+		762242861CC8E7D000C50108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762242851CC8E7D000C50108 /* Assets.xcassets */; };
+		762242891CC8E7D000C50108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762242871CC8E7D000C50108 /* LaunchScreen.storyboard */; };
+		7640464F1CCD3331005634E6 /* nextbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 764046491CCD3331005634E6 /* nextbtn.png */; };
+		764046501CCD3331005634E6 /* solarsysteminfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7640464A1CCD3331005634E6 /* solarsysteminfo.png */; };
+		76529EBB1CC97C7E002C185E /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 76529EBA1CC97C7E002C185E /* circle.png */; };
+		76529EBE1CC98064002C185E /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 76529EBC1CC98064002C185E /* play.png */; };
+		76529EBF1CC98064002C185E /* stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 76529EBD1CC98064002C185E /* stars.png */; };
+		7660FADF1CD64606003BC09D /* myage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7660FADC1CD64606003BC09D /* myage.png */; };
+		7660FAE01CD64606003BC09D /* mybio.png in Resources */ = {isa = PBXBuildFile; fileRef = 7660FADD1CD64606003BC09D /* mybio.png */; };
+		7660FAE31CD65262003BC09D /* goSpace.png in Resources */ = {isa = PBXBuildFile; fileRef = 7660FAE21CD65262003BC09D /* goSpace.png */; };
+		7660FAE51CD6573A003BC09D /* myname.png in Resources */ = {isa = PBXBuildFile; fileRef = 7660FAE41CD6573A003BC09D /* myname.png */; };
+		7660FAE71CD67E5C003BC09D /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 7660FAE61CD67E5C003BC09D /* profile.png */; };
+		7691DC301CCFEDDF00B8F36B /* g1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7691DC2E1CCFEDDF00B8F36B /* g1.png */; };
+		7691DC311CCFEDDF00B8F36B /* g2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7691DC2F1CCFEDDF00B8F36B /* g2.png */; };
+		7691DC341CCFFE0E00B8F36B /* milkyparticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7691DC331CCFFE0E00B8F36B /* milkyparticle.sks */; };
+		7691DC381CD016D900B8F36B /* hotgalaxyparticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7691DC371CD016D900B8F36B /* hotgalaxyparticle.sks */; };
+		76CD0F901CD511E500FE4AE0 /* Initialinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CD0F8F1CD511E500FE4AE0 /* Initialinfo.png */; };
+		76CD0F921CD511EF00FE4AE0 /* infobg.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CD0F911CD511EF00FE4AE0 /* infobg.png */; };
+		76CD0F941CD5233300FE4AE0 /* galaxiesinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CD0F931CD5233300FE4AE0 /* galaxiesinfo.png */; };
+		76CD0F961CD5233D00FE4AE0 /* starsinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CD0F951CD5233D00FE4AE0 /* starsinfo.png */; };
+		76CD0F981CD52E0E00FE4AE0 /* milkyinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CD0F971CD52E0E00FE4AE0 /* milkyinfo.png */; };
+		76CD0F9A1CD5556F00FE4AE0 /* solarinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CD0F991CD5556F00FE4AE0 /* solarinfo.png */; };
+		76CD0FA01CD5712800FE4AE0 /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CD0F9E1CD5712800FE4AE0 /* restart.png */; };
+		76CD0FA21CD57AD300FE4AE0 /* AboutMeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD0FA11CD57AD300FE4AE0 /* AboutMeScene.swift */; };
+		76CD0FA81CD586F600FE4AE0 /* aboutbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CD0FA41CD586F600FE4AE0 /* aboutbg.png */; };
+		76CD0FA91CD586F600FE4AE0 /* age.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CD0FA51CD586F600FE4AE0 /* age.png */; };
+		76CD0FAA1CD586F600FE4AE0 /* bio.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CD0FA61CD586F600FE4AE0 /* bio.png */; };
+		76CD0FAB1CD586F600FE4AE0 /* name.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CD0FA71CD586F600FE4AE0 /* name.png */; };
+		76CDEC181CCE9F2A00BF8868 /* singularityParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 76CDEC161CCE9F2A00BF8868 /* singularityParticles.sks */; };
+		76CDEC1B1CCEA56D00BF8868 /* starsParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 76CDEC1A1CCEA56D00BF8868 /* starsParticles.sks */; };
+		76CDEC581CCFDDEE00BF8868 /* galaxyParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 76CDEC561CCFDDEE00BF8868 /* galaxyParticles.sks */; };
+		76CDEC591CCFDDEE00BF8868 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CDEC571CCFDDEE00BF8868 /* spark.png */; };
+		76F6CBBB1CCAEC410007C945 /* SpaceScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F6CBBA1CCAEC410007C945 /* SpaceScene.swift */; };
+		76F6CBBF1CCAF5E90007C945 /* singularity.png in Resources */ = {isa = PBXBuildFile; fileRef = 76F6CBBE1CCAF5E90007C945 /* singularity.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7604ECC01CD13107007EF2E6 /* milkyy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = milkyy.png; sourceTree = "<group>"; };
+		7604ECC21CD16730007EF2E6 /* SolarSystemScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolarSystemScene.swift; sourceTree = "<group>"; };
+		7604ECCA1CD2CF51007EF2E6 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		7604ECCB1CD2CF51007EF2E6 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		7604ECD61CD381EF007EF2E6 /* orbits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orbits.png; sourceTree = "<group>"; };
+		7604ECD81CD39C24007EF2E6 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		7604ECDB1CD4193B007EF2E6 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		7604ECDC1CD4193B007EF2E6 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		7604ECDD1CD4193B007EF2E6 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		7604ECDE1CD4193B007EF2E6 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		7604ECDF1CD4193B007EF2E6 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		7604ECE01CD4193B007EF2E6 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		7604ECE71CD41AB7007EF2E6 /* sunParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sunParticles.sks; sourceTree = "<group>"; };
+		760D21AF1CCCDF1D002E8F37 /* starsbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starsbg.png; sourceTree = "<group>"; };
+		760D21B11CCCE0E2002E8F37 /* stars3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stars3.png; sourceTree = "<group>"; };
+		762242771CC8E7D000C50108 /* Ahmed Bekhit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ahmed Bekhit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7622427A1CC8E7D000C50108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7622427C1CC8E7D000C50108 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7622427E1CC8E7D000C50108 /* HomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
+		762242801CC8E7D000C50108 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		762242831CC8E7D000C50108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		762242851CC8E7D000C50108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		762242881CC8E7D000C50108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7622428A1CC8E7D000C50108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764046491CCD3331005634E6 /* nextbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextbtn.png; sourceTree = "<group>"; };
+		7640464A1CCD3331005634E6 /* solarsysteminfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = solarsysteminfo.png; sourceTree = "<group>"; };
+		76529EBA1CC97C7E002C185E /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		76529EBC1CC98064002C185E /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		76529EBD1CC98064002C185E /* stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stars.png; sourceTree = "<group>"; };
+		7660FADC1CD64606003BC09D /* myage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myage.png; sourceTree = "<group>"; };
+		7660FADD1CD64606003BC09D /* mybio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mybio.png; sourceTree = "<group>"; };
+		7660FAE21CD65262003BC09D /* goSpace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goSpace.png; sourceTree = "<group>"; };
+		7660FAE41CD6573A003BC09D /* myname.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myname.png; sourceTree = "<group>"; };
+		7660FAE61CD67E5C003BC09D /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		7691DC2E1CCFEDDF00B8F36B /* g1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g1.png; sourceTree = "<group>"; };
+		7691DC2F1CCFEDDF00B8F36B /* g2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g2.png; sourceTree = "<group>"; };
+		7691DC331CCFFE0E00B8F36B /* milkyparticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = milkyparticle.sks; sourceTree = "<group>"; };
+		7691DC371CD016D900B8F36B /* hotgalaxyparticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hotgalaxyparticle.sks; sourceTree = "<group>"; };
+		76CD0F8F1CD511E500FE4AE0 /* Initialinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Initialinfo.png; sourceTree = "<group>"; };
+		76CD0F911CD511EF00FE4AE0 /* infobg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infobg.png; sourceTree = "<group>"; };
+		76CD0F931CD5233300FE4AE0 /* galaxiesinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxiesinfo.png; sourceTree = "<group>"; };
+		76CD0F951CD5233D00FE4AE0 /* starsinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starsinfo.png; sourceTree = "<group>"; };
+		76CD0F971CD52E0E00FE4AE0 /* milkyinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = milkyinfo.png; sourceTree = "<group>"; };
+		76CD0F991CD5556F00FE4AE0 /* solarinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = solarinfo.png; sourceTree = "<group>"; };
+		76CD0F9E1CD5712800FE4AE0 /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
+		76CD0FA11CD57AD300FE4AE0 /* AboutMeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeScene.swift; sourceTree = "<group>"; };
+		76CD0FA41CD586F600FE4AE0 /* aboutbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutbg.png; sourceTree = "<group>"; };
+		76CD0FA51CD586F600FE4AE0 /* age.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = age.png; sourceTree = "<group>"; };
+		76CD0FA61CD586F600FE4AE0 /* bio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bio.png; sourceTree = "<group>"; };
+		76CD0FA71CD586F600FE4AE0 /* name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = name.png; sourceTree = "<group>"; };
+		76CDEC161CCE9F2A00BF8868 /* singularityParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = singularityParticles.sks; sourceTree = "<group>"; };
+		76CDEC1A1CCEA56D00BF8868 /* starsParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starsParticles.sks; sourceTree = "<group>"; };
+		76CDEC561CCFDDEE00BF8868 /* galaxyParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = galaxyParticles.sks; path = ../galaxyParticles.sks; sourceTree = "<group>"; };
+		76CDEC571CCFDDEE00BF8868 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = ../spark.png; sourceTree = "<group>"; };
+		76F6CBBA1CCAEC410007C945 /* SpaceScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceScene.swift; sourceTree = "<group>"; };
+		76F6CBBE1CCAF5E90007C945 /* singularity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singularity.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		762242741CC8E7D000C50108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7622426E1CC8E7D000C50108 = {
+			isa = PBXGroup;
+			children = (
+				762242791CC8E7D000C50108 /* Ahmed Bekhit */,
+				762242781CC8E7D000C50108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		762242781CC8E7D000C50108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				762242771CC8E7D000C50108 /* Ahmed Bekhit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		762242791CC8E7D000C50108 /* Ahmed Bekhit */ = {
+			isa = PBXGroup;
+			children = (
+				7622427A1CC8E7D000C50108 /* AppDelegate.swift */,
+				7622427C1CC8E7D000C50108 /* GameScene.sks */,
+				762242801CC8E7D000C50108 /* HomeViewController.swift */,
+				7622427E1CC8E7D000C50108 /* HomeScene.swift */,
+				76F6CBBA1CCAEC410007C945 /* SpaceScene.swift */,
+				7604ECC21CD16730007EF2E6 /* SolarSystemScene.swift */,
+				76CD0FA11CD57AD300FE4AE0 /* AboutMeScene.swift */,
+				762242821CC8E7D000C50108 /* Main.storyboard */,
+				762242851CC8E7D000C50108 /* Assets.xcassets */,
+				762242871CC8E7D000C50108 /* LaunchScreen.storyboard */,
+				7622428A1CC8E7D000C50108 /* Info.plist */,
+				7691DC321CCFEDF600B8F36B /* Particles */,
+				76529EB91CC97C3F002C185E /* images */,
+			);
+			path = "Ahmed Bekhit";
+			sourceTree = "<group>";
+		};
+		764046441CCD3302005634E6 /* Main parts */ = {
+			isa = PBXGroup;
+			children = (
+				76529EBA1CC97C7E002C185E /* circle.png */,
+				76529EBC1CC98064002C185E /* play.png */,
+				76F6CBBE1CCAF5E90007C945 /* singularity.png */,
+				760D21AF1CCCDF1D002E8F37 /* starsbg.png */,
+				760D21B11CCCE0E2002E8F37 /* stars3.png */,
+				76529EBD1CC98064002C185E /* stars.png */,
+			);
+			name = "Main parts";
+			sourceTree = "<group>";
+		};
+		764046451CCD331A005634E6 /* Info parts */ = {
+			isa = PBXGroup;
+			children = (
+				76CD0F911CD511EF00FE4AE0 /* infobg.png */,
+				76CD0F8F1CD511E500FE4AE0 /* Initialinfo.png */,
+				764046491CCD3331005634E6 /* nextbtn.png */,
+				76CD0F971CD52E0E00FE4AE0 /* milkyinfo.png */,
+				76CD0F931CD5233300FE4AE0 /* galaxiesinfo.png */,
+				76CD0F951CD5233D00FE4AE0 /* starsinfo.png */,
+				7640464A1CCD3331005634E6 /* solarsysteminfo.png */,
+			);
+			name = "Info parts";
+			sourceTree = "<group>";
+		};
+		764046521CCD333A005634E6 /* Galaxies */ = {
+			isa = PBXGroup;
+			children = (
+				7691DC2E1CCFEDDF00B8F36B /* g1.png */,
+				7691DC2F1CCFEDDF00B8F36B /* g2.png */,
+				7604ECC01CD13107007EF2E6 /* milkyy.png */,
+			);
+			name = Galaxies;
+			sourceTree = "<group>";
+		};
+		764046531CCD334F005634E6 /* Solar system */ = {
+			isa = PBXGroup;
+			children = (
+				7660FAE61CD67E5C003BC09D /* profile.png */,
+				76CD0F9E1CD5712800FE4AE0 /* restart.png */,
+				76CD0F991CD5556F00FE4AE0 /* solarinfo.png */,
+				7604ECD81CD39C24007EF2E6 /* sun.png */,
+				7604ECD61CD381EF007EF2E6 /* orbits.png */,
+				7604ECDB1CD4193B007EF2E6 /* 1.png */,
+				7604ECDC1CD4193B007EF2E6 /* 2.png */,
+				7604ECDD1CD4193B007EF2E6 /* 3.png */,
+				7604ECDE1CD4193B007EF2E6 /* 4.png */,
+				7604ECDF1CD4193B007EF2E6 /* 5.png */,
+				7604ECE01CD4193B007EF2E6 /* 6.png */,
+				7604ECCA1CD2CF51007EF2E6 /* 7.png */,
+				7604ECCB1CD2CF51007EF2E6 /* 8.png */,
+			);
+			name = "Solar system";
+			sourceTree = "<group>";
+		};
+		76529EB91CC97C3F002C185E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				76CD0FA31CD586E400FE4AE0 /* About me */,
+				764046531CCD334F005634E6 /* Solar system */,
+				764046521CCD333A005634E6 /* Galaxies */,
+				764046451CCD331A005634E6 /* Info parts */,
+				764046441CCD3302005634E6 /* Main parts */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		7691DC321CCFEDF600B8F36B /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				7604ECE71CD41AB7007EF2E6 /* sunParticles.sks */,
+				76CDEC561CCFDDEE00BF8868 /* galaxyParticles.sks */,
+				7691DC371CD016D900B8F36B /* hotgalaxyparticle.sks */,
+				76CDEC571CCFDDEE00BF8868 /* spark.png */,
+				76CDEC1A1CCEA56D00BF8868 /* starsParticles.sks */,
+				76CDEC161CCE9F2A00BF8868 /* singularityParticles.sks */,
+				7691DC331CCFFE0E00B8F36B /* milkyparticle.sks */,
+			);
+			name = Particles;
+			sourceTree = "<group>";
+		};
+		76CD0FA31CD586E400FE4AE0 /* About me */ = {
+			isa = PBXGroup;
+			children = (
+				7660FAE21CD65262003BC09D /* goSpace.png */,
+				76CD0FA41CD586F600FE4AE0 /* aboutbg.png */,
+				76CD0FA51CD586F600FE4AE0 /* age.png */,
+				76CD0FA61CD586F600FE4AE0 /* bio.png */,
+				7660FADC1CD64606003BC09D /* myage.png */,
+				7660FADD1CD64606003BC09D /* mybio.png */,
+				7660FAE41CD6573A003BC09D /* myname.png */,
+				76CD0FA71CD586F600FE4AE0 /* name.png */,
+			);
+			name = "About me";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		762242761CC8E7D000C50108 /* Ahmed Bekhit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7622428D1CC8E7D000C50108 /* Build configuration list for PBXNativeTarget "Ahmed Bekhit" */;
+			buildPhases = (
+				762242731CC8E7D000C50108 /* Sources */,
+				762242741CC8E7D000C50108 /* Frameworks */,
+				762242751CC8E7D000C50108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ahmed Bekhit";
+			productName = "Ahmed Bekhit";
+			productReference = 762242771CC8E7D000C50108 /* Ahmed Bekhit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7622426F1CC8E7D000C50108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ahmed Bekhit";
+				TargetAttributes = {
+					762242761CC8E7D000C50108 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QWJ822752T;
+					};
+				};
+			};
+			buildConfigurationList = 762242721CC8E7D000C50108 /* Build configuration list for PBXProject "Ahmed Bekhit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7622426E1CC8E7D000C50108;
+			productRefGroup = 762242781CC8E7D000C50108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				762242761CC8E7D000C50108 /* Ahmed Bekhit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		762242751CC8E7D000C50108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CD0FAB1CD586F600FE4AE0 /* name.png in Resources */,
+				76CD0FAA1CD586F600FE4AE0 /* bio.png in Resources */,
+				7604ECE31CD4193B007EF2E6 /* 3.png in Resources */,
+				76CD0F961CD5233D00FE4AE0 /* starsinfo.png in Resources */,
+				76CD0F981CD52E0E00FE4AE0 /* milkyinfo.png in Resources */,
+				7604ECD21CD2CF51007EF2E6 /* 7.png in Resources */,
+				7622427D1CC8E7D000C50108 /* GameScene.sks in Resources */,
+				7691DC301CCFEDDF00B8F36B /* g1.png in Resources */,
+				7604ECE41CD4193B007EF2E6 /* 4.png in Resources */,
+				7604ECC11CD13107007EF2E6 /* milkyy.png in Resources */,
+				76CDEC1B1CCEA56D00BF8868 /* starsParticles.sks in Resources */,
+				7660FADF1CD64606003BC09D /* myage.png in Resources */,
+				7691DC311CCFEDDF00B8F36B /* g2.png in Resources */,
+				7604ECD31CD2CF51007EF2E6 /* 8.png in Resources */,
+				76CD0F941CD5233300FE4AE0 /* galaxiesinfo.png in Resources */,
+				7604ECE51CD4193B007EF2E6 /* 5.png in Resources */,
+				7660FAE31CD65262003BC09D /* goSpace.png in Resources */,
+				7640464F1CCD3331005634E6 /* nextbtn.png in Resources */,
+				7604ECE21CD4193B007EF2E6 /* 2.png in Resources */,
+				7660FAE51CD6573A003BC09D /* myname.png in Resources */,
+				76529EBE1CC98064002C185E /* play.png in Resources */,
+				76CD0F921CD511EF00FE4AE0 /* infobg.png in Resources */,
+				7691DC381CD016D900B8F36B /* hotgalaxyparticle.sks in Resources */,
+				76CD0FA01CD5712800FE4AE0 /* restart.png in Resources */,
+				76CDEC581CCFDDEE00BF8868 /* galaxyParticles.sks in Resources */,
+				7604ECD71CD381EF007EF2E6 /* orbits.png in Resources */,
+				76529EBF1CC98064002C185E /* stars.png in Resources */,
+				76529EBB1CC97C7E002C185E /* circle.png in Resources */,
+				76CDEC591CCFDDEE00BF8868 /* spark.png in Resources */,
+				7604ECE81CD41AB7007EF2E6 /* sunParticles.sks in Resources */,
+				764046501CCD3331005634E6 /* solarsysteminfo.png in Resources */,
+				7660FAE71CD67E5C003BC09D /* profile.png in Resources */,
+				7604ECD91CD39C24007EF2E6 /* sun.png in Resources */,
+				76CD0F9A1CD5556F00FE4AE0 /* solarinfo.png in Resources */,
+				7660FAE01CD64606003BC09D /* mybio.png in Resources */,
+				762242891CC8E7D000C50108 /* LaunchScreen.storyboard in Resources */,
+				760D21B01CCCDF1E002E8F37 /* starsbg.png in Resources */,
+				76F6CBBF1CCAF5E90007C945 /* singularity.png in Resources */,
+				76CD0FA81CD586F600FE4AE0 /* aboutbg.png in Resources */,
+				76CD0FA91CD586F600FE4AE0 /* age.png in Resources */,
+				7691DC341CCFFE0E00B8F36B /* milkyparticle.sks in Resources */,
+				762242861CC8E7D000C50108 /* Assets.xcassets in Resources */,
+				7604ECE61CD4193B007EF2E6 /* 6.png in Resources */,
+				762242841CC8E7D000C50108 /* Main.storyboard in Resources */,
+				76CD0F901CD511E500FE4AE0 /* Initialinfo.png in Resources */,
+				760D21B21CCCE0E2002E8F37 /* stars3.png in Resources */,
+				76CDEC181CCE9F2A00BF8868 /* singularityParticles.sks in Resources */,
+				7604ECE11CD4193B007EF2E6 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		762242731CC8E7D000C50108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7622427F1CC8E7D000C50108 /* HomeScene.swift in Sources */,
+				7604ECC31CD16730007EF2E6 /* SolarSystemScene.swift in Sources */,
+				76F6CBBB1CCAEC410007C945 /* SpaceScene.swift in Sources */,
+				762242811CC8E7D000C50108 /* HomeViewController.swift in Sources */,
+				76CD0FA21CD57AD300FE4AE0 /* AboutMeScene.swift in Sources */,
+				7622427B1CC8E7D000C50108 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		762242821CC8E7D000C50108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				762242831CC8E7D000C50108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		762242871CC8E7D000C50108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				762242881CC8E7D000C50108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7622428B1CC8E7D000C50108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7622428C1CC8E7D000C50108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7622428E1CC8E7D000C50108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Ahmed Bekhit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedbekhit.Ahmed-Bekhit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		7622428F1CC8E7D000C50108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Ahmed Bekhit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedbekhit.Ahmed-Bekhit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		762242721CC8E7D000C50108 /* Build configuration list for PBXProject "Ahmed Bekhit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7622428B1CC8E7D000C50108 /* Debug */,
+				7622428C1CC8E7D000C50108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7622428D1CC8E7D000C50108 /* Build configuration list for PBXNativeTarget "Ahmed Bekhit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7622428E1CC8E7D000C50108 /* Debug */,
+				7622428F1CC8E7D000C50108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7622426F1CC8E7D000C50108 /* Project object */;
+}
